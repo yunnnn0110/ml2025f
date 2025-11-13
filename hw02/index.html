@@ -153,7 +153,7 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。
+      一開始打包多了一層資料夾導致一直讀不到檔案，害我一直重新上傳，又因為閒置太久要重新執行程式，除此之外我發現用筆電經常斷線，轉為用實驗室電腦才成功，前後試了5次左右，花費很多時間，真的需要很有耐心，還好最後有成功，看到跑出成果真的很有成就感，之後也知道遇到這些問題該如何應對。
     </div>
   </div>
 
@@ -169,22 +169,22 @@
         </tr>
         <tr>
           <td rowspan="4" id="myTotal"></td>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox1" checked></td>
           <td id='m1'>4</td>
-          <td>Simple baseline - 描述</td>
+          <td>Simple baseline - 完成colab baseline的訓練並產生權重檔</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox2"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox2" checked></td>
           <td id='m2'>4</td>
-          <td>Medium baseline - 描述</td>
+          <td>Medium baseline - 調整並增加使用的訓練資料集(AICUP_training.json)</td>
         </tr>
         <tr>
           <td><input type="checkbox" class="flipswitch" id="myCheckbox3"></td>
           <td id='m3'>2</td>
-          <td>Strong baseline - 描述</td>
+          <td>Strong baseline - 使用其他模型(例如. Attn U-Net、UNETR、Swin UNETR...等)，對心臟資料進行訓練，並繳交colab程式碼。</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox4" checked></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox4"></td>
           <td id='m4'>-10</td>
           <td>沒有寫100字心得</td>
         </tr>
@@ -196,11 +196,28 @@
   <!-- ------------------------------------------------>
   <div class="row hw12 bottomrow">
     <div class="col-md-12 twenty">
-      <video id="video1" style="width:100%;max-width:100%;" controls="">
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-      </video>
+      <p style="font-size:18px; font-weight:bold; margin-bottom:10px;">
+            Simple Baseline Dice分數圖片
+        </p>
+
+        <img 
+          id="image1" 
+          src="img/baseline.png" 
+          style="width:100%; max-width:100%;" 
+          alt="description">
+      
+        <p style="font-size:18px; font-weight:bold; margin-bottom:10px;">
+            Medium Baseline Dice分數圖片
+        </p>
+
+        <img 
+          id="image1" 
+          src="img/medium.png" 
+          style="width:100%; max-width:100%;" 
+          alt="description">
     </div>
-  </div>
+</div>
+
 
   <!-- ------------------------------------------------>
 
