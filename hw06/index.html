@@ -153,8 +153,7 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。
-    </div>
+      執行到AICUP主動脈瓣偵測推論過程，我發現即使是在訓練的階段有好的分數，最後推論的結果也可能因過飽和因素影響得到較低的分數，也許epoch的數值遠遠不夠，可能還需要拉長訓練時間才能在推論階段得到更好的成績，但無論如何我都有在過程習得調整各項數值的技巧，相信在一次次訓練後會越來越高分。</div>
   </div>
 
   <!-- ------------------------------------------------>
@@ -169,22 +168,22 @@
         </tr>
         <tr>
           <td rowspan="4" id="myTotal"></td>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox1" checked></td>
           <td id='m1'>4</td>
-          <td>Simple baseline - 描述</td>
+          <td>Simple baseline - 完成 Colab baseline 的預測並上傳至競賽網頁</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox2"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox2" checked></td>
           <td id='m2'>4</td>
-          <td>Medium baseline - 描述</td>
+          <td>Medium baseline - 使用 HW5 Medium baseline 訓練出來的權重檔預測並上傳至競賽網頁</td>
         </tr>
         <tr>
           <td><input type="checkbox" class="flipswitch" id="myCheckbox3"></td>
           <td id='m3'>2</td>
-          <td>Strong baseline - 描述</td>
+          <td>Strong baseline - 得到比 Simple baseline 更高的預測分數</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox4" checked></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox4"></td>
           <td id='m4'>-10</td>
           <td>沒有寫100字心得</td>
         </tr>
@@ -196,9 +195,15 @@
   <!-- ------------------------------------------------>
   <div class="row hw12 bottomrow">
     <div class="col-md-12 twenty">
-      <video id="video1" style="width:100%;max-width:100%;" controls="">
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-      </video>
+      <p style="font-size:18px; font-weight:bold; margin-bottom:10px;">
+            Simple/midium Baseline圖片
+        </p>
+
+        <img 
+          id="image1" 
+          src="img/aicup.png" 
+          style="width:100%; max-width:100%;" 
+          alt="description">
     </div>
   </div>
 
